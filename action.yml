@@ -30,7 +30,6 @@ runs:
         fi
       env:
         RUFF_OUTPUT_FORMAT: github
-        RUFF_FORMAT: github
         INPUT_ARGS: ${{ inputs.args }}
         INPUT_SRC: ${{ inputs.src }}
         INPUT_VERSION: ${{ inputs.version }}
